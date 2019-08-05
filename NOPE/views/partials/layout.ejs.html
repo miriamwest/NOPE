@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= blocks.title %></title>
+
+  <link href="https://fonts.googleapis.com/css?family=Georgia%7CLora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
+  
+</head>
+<body>
+
+    <div><%- partial('partials/navbar') -%></div>
+    <br><br><br>
+    <%- body -%>
+    <br><br><br>
+    <h5>Enter plant name:<input type=text id="listName">
+    <input type="button" id="labelList" value="Label List" onclick="setTitle()"></h5>
+
+
+    <div class="container" id="containerAll">
+      <br>
+      <h2><span id= "listTitle"></span></h2>
+     <h3> Add Plant </h3>
+       <input id="new-task" type="text"><button id= "addButton">Add</button>
+
+      <input type="button" id="btnSave" value="Save" onclick="addElement()">
+      <input type="button" id="btnCreate" value="Create a New Plant Post" onclick="alert(),refresh()">
+
+      <span id= "alertBox"></span>
+      <!-- <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div> -->
+
+    </div>
+     <br><br><br>
+
+     <h2>Listed Plants</h2>
+
+    <ul id="listedPlants">
+<!--      <li><div><%- partial('partials/cards') %> </div></li> -->
+    </ul>
+
+<br><br><br>
+
+    <div><%-partial('partials/footer') %></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+ <script type="text/javascript" src= "javascripts/nope.js"></script>
+</body>
+</html>
