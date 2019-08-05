@@ -1,19 +1,21 @@
 body {
   padding: 50px;
-  font: 14px "Georiga", serif;
+  font: 15px "Georiga", serif;
 }
 p{
-color: #00B7FF;
+color: #15e052;
 }
 a {
-  color: #00B7FF;
+  color: #b9db24;
 }
 header{
 	text-align: center;
+	color: #22863d;
 }
 h1 {
     font-family: 'Georgia', serif;
     text-align: center;
+    color: #ffe870;
 }
 h2 {
     font-family: 'Georgia', serif;
