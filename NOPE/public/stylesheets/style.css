@@ -1,6 +1,8 @@
 body {
   padding: 50px;
   font: 15px "Georiga", serif;
+  align-content: center;
+  text-align: center;
 }
 p{
 color: #15e052;
@@ -19,16 +21,29 @@ h1 {
 }
 h2 {
     font-family: 'Georgia', serif;
+    text-align: center;
+    color: #ffe870;
 }
 h3 {
-    font-family: 'Georgia', serif;  
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #ffe870;
 }
 footer{
 	display:inline-block;
 	float: right;
+	color: white;
+	background-color: #22863d;
 }
-navbar{
-
+#logIn{
+	text-align: center;
+	color: #22863d;
+}
+.navbar{
+	color: #22863d;
+}
+.mylogo{
+	color: #15e052;
 }
 button{
   border: 0px;
