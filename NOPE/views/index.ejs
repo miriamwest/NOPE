@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= Welcome to New Orleans Plant Exchange %></title>
+  <title>Welcome to New Orleans Plant Exchange</title>
 
   <link href="https://fonts.googleapis.com/css?family=Georgia%7CLora&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
   
 </head>
 <body>
 <h1> Welcome to the New Orleans Plant Exchange </h1>
-    <p> Trading and Selling Locally </p>
-    <div><%- partial('partials/navbar.ejs') -%></div>
-    <br><br><br>
-    <%- body -%>
+    <h2> Trading and Selling Locally </h2>
+    <nav id=navBar>
+      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/all_plants" style="color:#22863d;"><span>All Plants</span></a>
+      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/my_plant_listings" style="color:#ffe870;"><span>My Plant Listings</span></a>
+      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/add_plants" style="color:#22863d;"><span>Add Plants</span></a>
+    </nav>
     <br><br><br>
     <div class="container" id="containerAll">
       <br>
-    <h3>Add Plant<input placeholder="Upload File" type="img" id="plantImg">
-    <input placeholder= "Description" id="new-plant" type="text"><!-- <button id= "addButton">Add</button> -->
-    <input type="button" id="createListing" value="Create Listing" onclick="setTitle()"></h3>
+    <h3>Add Plant</h3><input placeholder="Upload File" type="img" id="plantImg">
+    <input type="button" id="uploadFile" value="Upload" onclick="addElement()">
+    <br>
+    <h3 class= "fa fa-leaf" id="leaf"></h3><input placeholder= "Description" type="text" id="new-plant">
+    <input type="button" id="createListing" value="Create Listing" onclick="setTitle(),refresh()">
 
-      <!-- <input type="button" id="btnSave" value="Save" onclick="addElement()">
-      <input type="button" id="btnCreate" value="Create a New Plant Post" onclick="alert(),refresh()">
- --><!-- 
-      <span id= "alertBox"></span> -->
-      <!-- <div class="alert alert-warning" role="alert">
-        A simple warning alert—check it out!
-      </div> -->
-
+ 
     </div>
      <br><br><br>
 
      <h2>My Listed Plants</h2>
 
     <ul id="listedPlants">
-    	<li></li>
+    	<li><a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/images/basil.jpg"></a></li>
     </ul>
 
 <br><br><br>
