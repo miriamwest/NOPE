@@ -1,16 +1,25 @@
 var express = require('express');
-var layout = require('express-layout');
-var app = express();
 var router = express.Router();
 var crypto = require('crypto');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NOPE'});
+  res.render('index', { title: 'Login'});
 });
-router.get('/Login', function(req, res, next) {
-  res.render('login_page/index', { title: 'Login'});
+
+
+router.post('/login_page', function(req, res, next){
+	if (req.body.username && req.body.password){
+	req.session.authentication ={
+		username: req.body.username,
+		password: req.body.username,
+		  };
+
+    res.redirect('/login_page/index.html');
+  } else {
+    res.render('login', { error: 'Invalid Username or Password' })};
 });
+
 router.get('/My_Plant_Listings', function(req, res, next) {
   res.render('my_plant_listings/index', { title: 'My_Plant_Listings'});
 });
