@@ -30,12 +30,12 @@ a {
 }
 header{
 	text-align: center;
-	color: #22863d;
+	color: #e1c3d9;
 }
 h1 {
     font-family: 'Georgia', serif;
     text-align: center;
-    color: #22863d;
+    color: #e1c3d9;
 }
 h2 {
     font-family: 'Georgia', serif;
@@ -79,13 +79,14 @@ font-family: 'Georgia';
     text-align: center;
     color: #ffe870;
     font-size: 20px;
-    width: 50% !important;
+    width: 50px;
 }
-footer{
-	display:inline-block;
-	float: right;
-	color: white;
-	background-color: #22863d;
+#createAccount{
+	font-family: 'Georgia';
+    text-align: center;
+    color: #ffe870;
+    font-size: 20px;
+    width: 200px;
 }
 #logIn{
 	text-align: center;
@@ -96,6 +97,35 @@ footer{
 }
 .mylogo{
 	color: #15e052;
+}
+#jumboBanana.jumbotron.jumbotron-fluid{
+	width: 100%;
+	height: 300px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-radius: 500px !important;
+	background-image: url("/images/banana_landscape_jumbotron.JPG");
+	image-rendering: optimizeQuality;
+	background-size: cover;
+}
+footer{
+	display:inline-block;
+	float: right;
+	color: white;
+	background-color: #40644b;
+}
+#bananaLogo{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 20px 20px 20px;
+
+}
+#footerId{
+	float: right;
+	padding: 25px 25px 25px;
+	color: #e1c3d9;
+	align-content: center;
 }
 /*button{
   border: 0px;

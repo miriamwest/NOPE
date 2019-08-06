@@ -6,19 +6,19 @@ var crypto = require('crypto');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NOPE' });
+  res.render('index', { title: 'NOPE'});
 });
 router.get('/Login', function(req, res, next) {
-  res.render('index', { title: 'Login'};
+  res.render('login_page/index', { title: 'Login'});
 });
 router.get('/My_Plant_Listings', function(req, res, next) {
-  res.render('index', { title: 'My_Plant_Listings'});
+  res.render('my_plant_listings/index', { title: 'My_Plant_Listings'});
 });
 router.get('/Add_Plants', function(req, res, next) {
-  res.render('index', { title: 'Add_Plants'});
+  res.render('add_plants/index', { title: 'Add_Plants'});
 });
 router.get('/All_Plants', function(req, res, next) {
-  res.render('index', { title: 'All_Plants'});
+  res.render('all_plants/index', { title: 'All_Plants'});
 });
 
 

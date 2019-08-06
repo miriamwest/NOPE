@@ -1,24 +1,22 @@
-	<!DOCTYPE html>
-	<html>
-	<link rel='stylesheet' href='/stylesheets/style.css'>
-	<head>
-		<title>NOPE Log In</title>
-	</head>
-	<body>
 	<div id =logIn>
 		<h2>Please Log In</h2>
 		<!-- <% if(error) { %>
 		<%= error %>
 		<% } %> -->
-		<form action="/login" method="post">
-			<label for="username">Email Address</label>
-			<input name="username" placeholder="Email Address" required autofocus>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail">Email address</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required autofocus>
+</div>
 
-			<label for="password">Password</label>
-			<input name="password" type="password" required>
-
-			<button type="submit">Sign In</button>
+<div class="form-group">
+    <label for="exampleInputPassword">Password</label>
+    <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+  </div>
+			
+			<!-- <button type="submit" class="btn btn-primary">Sign In</button> -->
 		</form>
 	</div>
-	</body>
-	</html>
+
+
+  

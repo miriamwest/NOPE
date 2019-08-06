@@ -23,6 +23,9 @@
     <br>
     <h3> Password </h3><input placeholder= "Password" type="textHidden" id="password" encrypt= true>
     <input type="button" id="createListing" value="Create Listing" onclick="addElement(),refresh()">
+
+    
+      
     </form>
   </div> 
       <br><br><br>

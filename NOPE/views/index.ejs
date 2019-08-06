@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to New Orleans Plant Exchange</title>
+  <title>New Orleans Plant Exchange</title>
 
   <link href="https://fonts.googleapis.com/css?family=Georgia%7CLora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/style.css">
@@ -9,35 +9,31 @@
   <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
+  <div class="jumbotron jumbotron-fluid" id="jumboBanana">
+  <div class="container"id="jumbotron-fluid">
+    <h1 class="display-4">New Orleans Plant Exchange</h1>
+    
+  </div>
+</div>
+
 </head>
 <body>
-<h1> Welcome to the New Orleans Plant Exchange </h1>
-    <h2> Trading and Selling Locally </h2>
-    <nav id=navBar>
-      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/all_plants" style="color:#22863d;"><span>All Plants</span></a>
-      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/my_plant_listings" style="color:#ffe870;"><span>My Plant Listings</span></a>
-      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/add_plants" style="color:#22863d;"><span>Add Plants</span></a>
-    </nav>
+    <h2> Welcome! </h2>
+    
     <br><br><br>
-    <div class="container" id="containerAll">
-      <br>
-    <h3>Add Plant</h3><input placeholder="Upload File" type="img" id="plantImg">
-    <input type="button" id="uploadFile" value="Upload" onclick="addElement()">
+      <div class="container" id="logInContainer">>
+    <h2>Please Log In</h2>
+      <form action="/login" method="post">
+    <h3> Email Address </h3><input placeholder="Email Address" type="email" id="emailAddress">
     <br>
-    <h3 class= "fa fa-leaf" id="leaf"></h3><input placeholder= "Description" type="text" id="new-plant">
-    <input type="button" id="createListing" value="Create Listing" onclick="setTitle(),refresh()">
+    <h3> Password </h3><input placeholder= "Password" type="textHidden" id="password" encrypt= true>
+    <input type="button" id="createAccount" value="Create Account" onclick="addElement(),refresh()">
 
- 
-    </div>
-     <br><br><br>
-
-     <h2>My Listed Plants</h2>
-
-    <ul id="listedPlants">
-    	<li><a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/images/basil.jpg"></a></li>
-    </ul>
-
-<br><br><br>
+    
+      
+    </form>
+  </div> 
+      <br><br><br>
 
     <div><%-partial('partials/footer') %></div>
 
