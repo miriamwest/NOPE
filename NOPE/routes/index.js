@@ -40,10 +40,6 @@ router.get('/all_plants', function(req, res, next) {
 });
 
 
-module.exports = function (router) { 
 
-    router.get('/', function(req, res) {
-         res.render('/')});
-    };
 
-    
+module.exports = router;
