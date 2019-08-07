@@ -27,17 +27,22 @@ router.get('/My_Plant_Listings', function(req, res, next) {
 router.get('/Add_Plants', function(req, res, next) {
   res.render('add_plants/index', { title: 'Add_Plants'});
 });
-router.get('/all_plants', function(req, res, next) {
+router.get('/All_Plants', function(req, res, next) {
 	// console.log('here');
 	var images = [];
-	images = images.concat(glob.sync("../public/images/*.jpg"));
-	images = images.concat(glob.sync("../public/images/*.png"));
-	images = images.concat(glob.sync("../public/images/*.gif"));
-	images = images.concat(glob.sync("../public/images/*.tiff"));
+	images = images.concat(glob.sync("./public/all_images/*.jpg"));
+	images = images.concat(glob.sync("./public/all_images/*.png"));
+	images = images.concat(glob.sync("./public/all_images/*.gif"));
+	images = images.concat(glob.sync("./public/all_images/*.tiff"));
+	images = images.concat(glob.sync("./public/all_images/*.jpeg"));
 	images.sort();
+
+	console.log(images);
 
   res.render('all_plants/index', { title: 'All_Plants', images: images});
 });
+
+
 
 
 

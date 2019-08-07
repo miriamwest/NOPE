@@ -18,15 +18,19 @@
 body {
   padding: 50px;
   font: 15px "Georiga", serif;
-  align-content: center;
-  text-align: center;
+  align-content: center !important;
+  text-align: center !important;
 }
 p{
-color: #15e052;
-text-align: center;
+color: #90BEB6;
+text-align: left;
+padding: 50px;
+font-size: xx-large;
+width:100%;
 }
 a {
   color: #b9db24;
+  text-align: center;
 }
 header{
 	text-align: center;
@@ -36,6 +40,8 @@ h1 {
     font-family: 'Georgia', serif;
     text-align: center;
     color: #e1c3d9;
+    margin: 50px;
+    padding-top:50px;
 }
 h2 {
     font-family: 'Georgia', serif;
@@ -52,12 +58,13 @@ h3 {
 }
 
 #leaf{
-	padding-right: 100px !important;
+  color:#40644b;
+	padding-right: 20px !important;
 }
 #plantImg{
 	font-family: 'Georgia';
     text-align: center;
-    color: #ffe870;
+    color: #55A191;
     font-size: 20px;
     display: inline;
 }
@@ -70,16 +77,11 @@ h3 {
 #uploadFile{
 font-family: 'Georgia';
     text-align: center;
-    color: #ffe870;
+    color: #644059;
+    background-color: #e1c3d9;
     font-size: 20px;
-    width: 50% !important;
-}
-#createListing{
-	font-family: 'Georgia';
-    text-align: center;
-    color: #ffe870;
-    font-size: 20px;
-    width: 50px;
+    width: 100px !important;
+
 }
 #createAccount{
 	font-family: 'Georgia';
@@ -92,15 +94,13 @@ font-family: 'Georgia';
 	text-align: center;
 	color: #22863d;
 }
-#navBar{
-	text-align: center;
-}
 .mylogo{
-	color: #15e052;
+	color: #545c88;
+  text-align:right;
 }
 #jumboBanana.jumbotron.jumbotron-fluid{
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	padding-right: 0px;
 	padding-left: 0px;
 	border-radius: 500px !important;
@@ -108,23 +108,43 @@ font-family: 'Georgia';
 	image-rendering: optimizeQuality;
 	background-size: cover;
 }
+.h1{
+  margin-top: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+
+}
+h1#prettyHeader{
+  padding-top: 100px;
+  font-weight: 75 !important;
+  font-size: 500 !important;
+}
 footer{
 	display:inline-block;
-	float: right;
-	color: white;
-	background-color: #40644b;
+	background-image: url("/images/tulips_landscape.JPG");
+  image-rendering: optimizeQuality;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 500px !important;
 }
-#bananaLogo{
+#footerId{
+  font-size: 30;
+}
+p.footerId{
+  width:100%;
+}
+/*#bananaLogo{
 	width: 100px;
 	height: 100px;
 	float: left;
 	padding: 20px 20px 20px;
-
+*/
 }
 #footerId{
 	float: right;
 	padding: 25px 25px 25px;
-	color: #e1c3d9;
+	color: #40644b;
 	align-content: center;
 }
 /*button{
@@ -137,7 +157,7 @@ footer{
   cursor: pointer;
   float: right;
   display: inline-block;*/
-}
+/*}
 input[type="text"] {
   margin: 0;
   font-size: 20px;
@@ -152,4 +172,55 @@ input[type="text"] {
 }
 input[type="text"]:focus {
   color: #333;
+}*/
+section .row img{
+  margin: 0px;
+  width: 500px;
+  display: inline-block;
+}
+#prettyPlants{
+  margin: 0px;
+  width: 500px;
+  display: inline-block;
+}
+#navBar{
+  width:100%;
+  text-align: center;
+  color: #22863d;
+  align-items: center;
+}
+#navBarStuff.nav-item.active{
+  width:100%;
+  text-align: center;
+  color: #22863d;
+  align-items: center;
+}
+#navbarSupportedContent{
+  width:100%;
+  text-align: center !important;
+  color: #22863d !important;
+  align-items: center !important;
+}
+
+.nav-item a {
+  width:100%;
+  text-align: center;
+  color: #22863d;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+/*#headlogo{
+  text-align: center;
+  width:100%;
+}*/
+
+#navBarStuff{
+  width:100%
+  text: center;
+  color: #22863d;
+  align-items: center;
+
 }

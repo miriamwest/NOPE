@@ -1,32 +1,23 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Plant Listings </title>
-
-  <link href="https://fonts.googleapis.com/css?family=Georgia%7CLora&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-</head>
-<body>
+<% layout('../partials/layout') %>
 <h1> Welcome to the New Orleans Plant Exchange </h1>
     <h2> Trading and Selling Locally </h2>
-    <nav id=navBar>
-      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/all_plants" style="color:#22863d;"><span>All Plants</span></a>
-      <a href="/Users/miriamwest/Desktop/CODING/NOPE/NOPE/add_plants" style="color:#22863d;"><span>Add Plants</span></a>
-    </nav>
-    <br><br><br>
+     <h2>My Listed Plants</h2><br>
+     <section>
+    	<div class="row" id="myListedPlants">
+    <figure class="col-sm-6">
+      <img src="../images/croton.jpg"></figure>
+      <figure class="col-sm-6">
+      <img src="../images/yellow_hibiscus.jpg"></figure><br>
+      <figure class="col-sm-6">
+      <img src="../images/basil.jpg"></figure>
+      <figure class="col-sm-6">
+      <img src="../images/cactus.jpg"></figure><br>
+      <figure class="col-sm-6">
+      <img src="../images/magnolia.jpg"></figure>
+      <figure class="col-sm-6">
+      <img src="../images/banana_portrait.jpg"></figure><br>
     
-      
-     <h2>My Listed Plants</h2>
-<div class="container" id="containerAll">
-    <ul id="listedPlants">
-    	<!-- <li><a href=></a></li> -->
-    </ul>
-</div>
+    </div></section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
