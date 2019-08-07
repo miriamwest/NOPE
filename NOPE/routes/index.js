@@ -28,7 +28,7 @@ router.get('/Add_Plants', function(req, res, next) {
   res.render('add_plants/index', { title: 'Add_Plants'});
 });
 router.get('/all_plants', function(req, res, next) {
-	console.log('here');
+	// console.log('here');
 	var images = [];
 	images = images.concat(glob.sync("../public/images/*.jpg"));
 	images = images.concat(glob.sync("../public/images/*.png"));
@@ -40,6 +40,10 @@ router.get('/all_plants', function(req, res, next) {
 });
 
 
+module.exports = function (router) { 
 
+    router.get('/', function(req, res) {
+         res.render('/')});
+    };
 
-module.exports = router;
+    

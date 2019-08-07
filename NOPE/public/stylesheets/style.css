@@ -52,7 +52,7 @@ h3 {
 }
 
 #leaf{
-	padding-right: 91.5px !important;
+	padding-right: 100px !important;
 }
 #plantImg{
 	font-family: 'Georgia';
@@ -138,7 +138,7 @@ footer{
   float: right;
   display: inline-block;*/
 }
-/*input[type="text"] {
+input[type="text"] {
   margin: 0;
   font-size: 20px;
   line-height: 20px;
@@ -151,5 +151,5 @@ footer{
   color: #888;
 }
 input[type="text"]:focus {
-  color: #333;*/
+  color: #333;
 }
