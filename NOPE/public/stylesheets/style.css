@@ -200,27 +200,35 @@ section .row img{
   text-align: center !important;
   color: #22863d !important;
   align-items: center !important;
+  background-color: #f5e8a2;
+  border-color: transparent;
+  font-size: 40px;
+  
 }
-
+/* visited link */
+.nav-item a:visited {
+  color: #e0e0e1;
+}
+/* mouse over link */
+.nav-item a:hover {
+  color: #e1c3d9;
+}
 .nav-item a {
   width:100%;
   text-align: center;
   color: #22863d;
   align-items: center;
+  margin: 50px;
 }
-
 .navbar-nav {
   margin: 0 auto;
+  /*center*/
 }
-/*#headlogo{
-  text-align: center;
-  width:100%;
-}*/
-
 #navBarStuff{
   width:100%
   text: center;
   color: #22863d;
   align-items: center;
+/*yellow*/
 
 }
