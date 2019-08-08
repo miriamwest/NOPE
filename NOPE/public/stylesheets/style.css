@@ -13,7 +13,9 @@
 #55A191 lt jungle
 #40644b forest green
 */
-
+#logo{
+  width: 300px;
+}
 
 body {
   padding: 50px;
@@ -58,21 +60,8 @@ h3 {
 }
 
 #leaf{
-  color:#40644b;
+  color:#40644b !important;
 	padding-right: 20px !important;
-}
-#plantImg{
-	font-family: 'Georgia';
-    text-align: center;
-    color: #55A191;
-    font-size: 20px;
-    display: inline;
-}
-#new-plant{
-	font-family: 'Georgia';
-    text-align: center;
-    color: #ffe870;
-    font-size: 20px;
 }
 #uploadFile{
 font-family: 'Georgia';
@@ -81,7 +70,23 @@ font-family: 'Georgia';
     background-color: #e1c3d9;
     font-size: 20px;
     width: 100px !important;
-
+    }
+#plantImg{
+	font-family: 'Georgia';
+    text-align: center;
+    color: #55A191 !important;
+    font-size: 20px;
+    display: inline;
+}
+#maybe{
+  color: #644059;
+    background-color: #e1c3d9; 
+}
+#new-plant{
+	font-family: 'Georgia';
+    text-align: center;
+    color: #ffe870;
+    font-size: 20px;
 }
 #createAccount{
 	font-family: 'Georgia';
@@ -118,6 +123,8 @@ h1#prettyHeader{
   padding-top: 100px;
   font-weight: 75 !important;
   font-size: 500 !important;
+  color:#dbd0a3;
+  text-shadow: 4px 4px 3px #644059;
 }
 footer{
 	display:inline-block;
@@ -173,13 +180,17 @@ input[type="text"] {
 input[type="text"]:focus {
   color: #333;
 }*/
-section .row img{
-  margin: 0px;
-  width: 500px;
-  display: inline-block;
+#plantColorOne{
+  color:#545c88;
 }
-#prettyPlants{
-  margin: 0px;
+#plantColorTwo{
+  color:#545c88;
+}
+#plantColorThree{
+  color:#545c88;
+}
+section .row img{
+  margin: 20px;
   width: 500px;
   display: inline-block;
 }
@@ -230,5 +241,17 @@ section .row img{
   color: #22863d;
   align-items: center;
 /*yellow*/
-
+}
+#myListedPlants{
+  columns: 3;
+  margin: 0px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+}
+#prettyPlants{
+  columns: 2;
+  margin: 20px;
+  width: 500px;
+  display: inline-block;
 }

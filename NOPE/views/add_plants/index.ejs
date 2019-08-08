@@ -1,24 +1,18 @@
 <% layout('../partials/layout') %>
 <h1> Welcome to the New Orleans Plant Exchange </h1>
     <h2> Trading and Selling Locally </h2>
-    <h2>Add Plant</h2><br>
+    <h2 id= "plantColorThree" class= "fa fa-leaf" id="leaf">Add Plant</h2><br>
      
       <div class="container" id="containerAll">
   
       <br>
       <h2><span id= "listTitle"></span></h2>
-     <h3 class= "fa fa-leaf" id="leaf">Add Plant</h3>
-     <input placeholder="Upload File" type="img" id="plantImg">
-     <input type="button" id="uploadFile" value="Upload" onclick="addElement('')">
-    
-    </div>
-    <br>
-
+     
     <form action="/uploadFile" method="post" enctype="multipart/form-data">
-    <input type="file" name="filetoupload">
-    <input type="submit" value="Upload">
+    <input type="file" name="filetoupload" id="plantImg">
+    <input type="submit" id="uploadFile" value="Upload" onclick="addElement('')">
 </form>
-
+<br>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script src="https://kit.fontawesome.com/792aec6a64.js"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
