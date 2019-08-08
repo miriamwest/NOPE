@@ -134,7 +134,7 @@ h1#prettyHeader{
 }
 footer{
   display:inline-block;
-  background-image: url("/images/tulips_landscape.JPG");
+  background-image: url("/images/tulips_landscape.jpg");
   image-rendering: optimizeQuality;
   background-size: cover;
   width: 100% !important;
@@ -149,7 +149,6 @@ footer{
 #footerId{
   float: left !important;
   padding-top: 25px !important;
-}
 }
 p.footerId{
   width:100%;
