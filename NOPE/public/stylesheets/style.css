@@ -16,7 +16,12 @@
 #logo{
   width: 300px;
 }
-
+/*#bananaLogo{
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 20px 20px 20px;
+*/
 body {
   padding: 50px;
   font: 15px "Georiga", serif;
@@ -48,7 +53,7 @@ h1 {
 h2 {
     font-family: 'Georgia', serif;
     text-align: center;
-    color: #15e052;
+    color: #55A191;
     align-content: center;
 }
 h3 {
@@ -74,7 +79,7 @@ font-family: 'Georgia';
 #plantImg{
 	font-family: 'Georgia';
     text-align: center;
-    color: #55A191 !important;
+    color: #90BEB6 !important;
     font-size: 20px;
     display: inline;
 }
@@ -91,9 +96,10 @@ font-family: 'Georgia';
 #createAccount{
 	font-family: 'Georgia';
     text-align: center;
-    color: #ffe870;
+    color: #55A191;
     font-size: 20px;
     width: 200px;
+    background-color: #f5e8a2;
 }
 #logIn{
 	text-align: center;
@@ -131,55 +137,23 @@ footer{
 	background-image: url("/images/tulips_landscape.JPG");
   image-rendering: optimizeQuality;
   background-size: cover;
-  width: 100%;
+  width: 100% !important;
   height: 150px;
   border-radius: 500px !important;
+  padding: 25px 25px 25px;
+  font-size: 500 !important;
+  font-weight:75 !important;
+  color:#dbd0a3;
+  text-shadow: 3px 3px 3px #55A191;
 }
 #footerId{
-  font-size: 30;
+  float: left !important;
+  padding-top: 25px !important;
+}
 }
 p.footerId{
   width:100%;
 }
-/*#bananaLogo{
-	width: 100px;
-	height: 100px;
-	float: left;
-	padding: 20px 20px 20px;
-*/
-}
-#footerId{
-	float: right;
-	padding: 25px 25px 25px;
-	color: #40644b;
-	align-content: center;
-}
-/*button{
-  border: 0px;
-  color: #888;
-  font-size: 20px;
-  width: 60px;
-  margin: inherit, 0 0;
-  font-family: 'Georgia', serif;
-  cursor: pointer;
-  float: right;
-  display: inline-block;*/
-/*}
-input[type="text"] {
-  margin: 0;
-  font-size: 20px;
-  line-height: 20px;
-  height: 20px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 6px;
-  font-family: 'Georgia', serif;
-  color: #888;
-}
-input[type="text"]:focus {
-  color: #333;
-}*/
 #plantColorOne{
   color:#545c88;
 }
@@ -214,7 +188,6 @@ section .row img{
   background-color: #f5e8a2;
   border-color: transparent;
   font-size: 40px;
-  
 }
 /* visited link */
 .nav-item a:visited {
