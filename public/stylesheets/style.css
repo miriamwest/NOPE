@@ -40,8 +40,8 @@ a {
   text-align: center;
 }
 header{
-	text-align: center;
-	color: #e1c3d9;
+  text-align: center;
+  color: #e1c3d9;
 }
 h1 {
     font-family: 'Georgia', serif;
@@ -66,7 +66,7 @@ h3 {
 
 #leaf{
   color:#40644b !important;
-	padding-right: 20px !important;
+  padding-right: 20px !important;
 }
 #uploadFile{
 font-family: 'Georgia';
@@ -77,7 +77,7 @@ font-family: 'Georgia';
     width: 100px !important;
     }
 #plantImg{
-	font-family: 'Georgia';
+  font-family: 'Georgia';
     text-align: center;
     color: #90BEB6 !important;
     font-size: 20px;
@@ -88,13 +88,13 @@ font-family: 'Georgia';
     background-color: #e1c3d9; 
 }
 #new-plant{
-	font-family: 'Georgia';
+  font-family: 'Georgia';
     text-align: center;
     color: #ffe870;
     font-size: 20px;
 }
 #createAccount{
-	font-family: 'Georgia';
+  font-family: 'Georgia';
     text-align: center;
     color: #55A191;
     font-size: 20px;
@@ -102,22 +102,22 @@ font-family: 'Georgia';
     background-color: #f5e8a2;
 }
 #logIn{
-	text-align: center;
-	color: #22863d;
+  text-align: center;
+  color: #22863d;
 }
 .mylogo{
-	color: #545c88;
+  color: #545c88;
   text-align:right;
 }
 #jumboBanana.jumbotron.jumbotron-fluid{
-	width: 100%;
-	height: 400px;
-	padding-right: 0px;
-	padding-left: 0px;
-	border-radius: 500px !important;
-	background-image: url("/images/banana_landscape_jumbotron.JPG");
-	image-rendering: optimizeQuality;
-	background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 500px !important;
+  background-image: url("/images/banana_landscape_jumbotron.JPG");
+  image-rendering: optimizeQuality;
+  background-size: cover;
 }
 .h1{
   margin-top: 50px;
@@ -133,8 +133,8 @@ h1#prettyHeader{
   text-shadow: 4px 4px 3px #644059;
 }
 footer{
-	display:inline-block;
-	background-image: url("/images/tulips_landscape.JPG");
+  display:inline-block;
+  background-image: url("/images/tulips_landscape.JPG");
   image-rendering: optimizeQuality;
   background-size: cover;
   width: 100% !important;
